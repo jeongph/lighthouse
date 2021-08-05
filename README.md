@@ -1,6 +1,6 @@
 # Organization-Obsession
 > "OO" meaning "Organization-Obsession"  
->> I feel at comfortable when everything is in organized.
+>> I feel comfortable when everything is organized.
 
 ## Own rules
 > In order to remember, write down My own rules.
