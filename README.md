@@ -16,7 +16,7 @@
 
 ### Repositories
 - [TIL](https://github.com/bin-e/TIL)
-- [algorithm](https://github.com/bin-e/algorithm)
+- [algorithm](https://github.com/bin-e/algorithm)  
 
 <!--
 ## :clipboard: Memo
