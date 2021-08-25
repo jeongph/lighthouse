@@ -7,9 +7,14 @@
 
 ### Github repository creation rules
 - `<project-name>` : 기본적으론 소문자 형태의 [kebab-case](https://en.wiktionary.org/wiki/kebab_case)로 프로젝트명으로 제작
-- `prac-<project-name>` : (==practice)연습장 (특정 기능이나 서비스 연습)
-- `docs-<project-name>` : 문서를 위한 repository
-- `clone-<project-name>` : 클론 코딩 (다른분들꺼 따라하거나, 특정 서비스 클론코딩)
+- `prac-<project-name>` : practice project (연습용 프로젝트, 특정 기능만을 위한 프로젝트)
+- `docs-<project-name>` : document only (문서용)
+- `clone-<project-name>` : clone project (다른분들꺼 따라하거나, 특정 서비스 클론코딩)
+- `book-<book-name>` : dev books (책 실습 내용이나 책 내용 자체 메모)
+- `<target>-module-<module-name>` : project module
+  - e.g. spring-module-jpa
+<!-- - `course-<course-name>` : dev courses (강의 실습 내용이나 강의 내용 자체 메모) -->
+<!-- - `toy-<project-name>` : toy only (장난감으로 만들어본 프로젝트) -->
 
 ## List-up
 > 정리를 이곳에
