@@ -13,7 +13,7 @@
 - `book-<book-name>` : dev books (책 실습 내용이나 책 내용 자체 메모)
 - `sample-<project-name>` : 상황재현, 코드삽입용 샘플코드 -> samples or TIL?
 - `<target>-module-<module-name>` : project module
-  - e.g. spring-module-jpa
+  - e.g. `<my-domain>-spring-module-jpa`
 <!-- - `course-<course-name>` : dev courses (강의 실습 내용이나 강의 내용 자체 메모) -->
 <!-- - `toy-<project-name>` : toy only (장난감으로 만들어본 프로젝트) -->
 
