@@ -24,12 +24,10 @@
 - [TIL](https://github.com/bin-e/TIL)
 - [algorithm](https://github.com/bin-e/algorithm)  
 
-<!--
 ## :clipboard: Memo
 - svc = service
 - mlt = multi
 - mdl = module
--->
 
 <!--
 이걸 어떻게 기록해야 할지 모르겠음;
