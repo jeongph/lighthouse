@@ -1,7 +1,8 @@
 # Organization-Obsession
 
-> "OO" meaning "Organization-Obsession"
->> I feel comfortable when everything is organized.
+> "OO" meaning "Organization-Obsession". 
+> 
+> To explain, I feel comfortable when everything is organized. 🤣
 
 ## List-up
 
