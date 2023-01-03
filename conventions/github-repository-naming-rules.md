@@ -1,0 +1,1 @@
+# Github repository naming rules
