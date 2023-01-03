@@ -7,4 +7,4 @@
 
 ## List
 
-- [Github repository nameing rule](./github-repository-nameing-rules.md)
+- [Github repository nameing rule](./github-repository-naming-rules.md)
