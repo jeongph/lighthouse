@@ -12,6 +12,8 @@
 
 - [TIL](https://github.com/bin-e/TIL)
 - [algorithm](https://github.com/bin-e/algorithm)
+- [blog-tistory](https://github.com/bin-e/blog-tistory)
+- [awesome-devfeed](https://github.com/bin-e/awesome-devfeed)
 
 ### module naming convention
 
