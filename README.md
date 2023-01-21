@@ -1,25 +1,19 @@
-# Organization-Obsession
+<div align=center>
 
-> "OO" meaning "Organization-Obsession". 
-> 
-> To explain, I feel comfortable when everything is organized. 🤣
+Often, I feel comfortable when everything is organized.. As if obsession of systematization 🤣
+
+</div>
 
 ## List-up
 
 > 정리를 이곳에
 
-### Repositories
+### Repository list
 
 - [TIL](https://github.com/bin-e/TIL)
 - [algorithm](https://github.com/bin-e/algorithm)
 - [blog-tistory](https://github.com/bin-e/blog-tistory)
 - [awesome-devfeed](https://github.com/bin-e/awesome-devfeed)
-
-### module naming convention
-
-- {모듈범위}-{모듈타입}-{모듈명}
-    - e.g)
-        - spring-module-abc -> Spring 프로젝트 전반부에서 사용할 abc 모듈
 
 <!--
 이걸 어떻게 기록해야 할지 모르겠음;
@@ -27,6 +21,7 @@
 현재 DoAI:: dev-book:: Jeong-Uk:: 이런식으로 프로젝트 구분을 해둠. 여기 강의관련된거 추가해야함.
 -->
 
+## So I ..
 > 무엇이든 깔끔하게 리스트화되어있고, 바로 찾아갈 수 있는, 쓸때없이 시간을 소비하지 않는 시스템을 원한다.
 > 그에 비해 github repository 목록은 형편없고, 검색해서 찾아가는 건 비효율적이다 (검색 또한 "검색어"라는 룰이 필요하기 때문이다).
 
