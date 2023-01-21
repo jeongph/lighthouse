@@ -8,12 +8,25 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 
 > 정리를 이곳에
 
+### Organization list
+
+- [bin-e](https://github.com/bin-e): Private (a space of infinite shoveling)
+- [ju-examples](https://github.com/ju-examples): JeongUk's code examples archive for blog post
+- [ju-learning](https://github.com/ju-learning): JeongUk's learning record
+- [jeongph](https://github.com/jeongph): Virtual Organization for JeongUk's project
+
+
 ### Repository list
 
 - [TIL](https://github.com/bin-e/TIL)
 - [algorithm](https://github.com/bin-e/algorithm)
 - [blog-tistory](https://github.com/bin-e/blog-tistory)
 - [awesome-devfeed](https://github.com/bin-e/awesome-devfeed)
+
+### Open
+
+- [✨Helpful 📬(article) or 🗂(document) or 📱(website)](https://helper.bin-e.dev/)
+- https://til.bin-e.dev/
 
 <!--
 이걸 어떻게 기록해야 할지 모르겠음;
