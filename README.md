@@ -13,7 +13,7 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 - [bin-e](https://github.com/bin-e): Private (a space of infinite shoveling)
 - [ju-examples](https://github.com/ju-examples): JeongUk's code examples archive for blog post
 - [ju-learning](https://github.com/ju-learning): JeongUk's learning record
-- [jeongph](https://github.com/jeongph): Virtual Organization for JeongUk's project
+- [JENXOR](https://github.com/jenxor): Virtual Organization for JeongUk's project
 
 
 ### Repository list
