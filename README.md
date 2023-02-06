@@ -4,8 +4,6 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 
 </div>
 
-[toctest](#list-up)
-
 ## List-up
 
 > 정리를 이곳에
