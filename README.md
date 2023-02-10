@@ -25,8 +25,7 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 
 ### Open
 
-- [✨Helpful 📬(article) or 🗂(document) or 📱(website)](https://helper.jeongph.dev/)
-- https://til.bin-e.dev/
+- [✨Helpful links collection for developer](https://helper.jeongph.dev/)
 
 ## So I ..
 > 무엇이든 깔끔하게 리스트화되어있고, 바로 찾아갈 수 있는, 쓸때없이 시간을 소비하지 않는 시스템을 원한다.
