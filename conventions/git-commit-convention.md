@@ -18,8 +18,9 @@
 - style: 코드와 기능 수정 없이 코드 모양(들여쓰기, 줄맞춤, 코드 포맷변경 등)을 수정했을 때
 - fix: 버그를 수정했을 때 (bug fix)
 - docs: 문서를 수정했을 때 (README, SQL, Javadoc)
-- test: 테스트를 추가하거나 변경했을 때
+- test: 테스트 관련 변경사항 
 - other: 빌드 스크립트(gradle, maven 등) 변경, CI/CD (배포 파일), Docker 파일 변경
+- init: (옵션) 프로젝트 초기화시에 
 ``` 
 
 ## 상세 내용
