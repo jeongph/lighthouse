@@ -14,7 +14,7 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 - [ju-examples](https://github.com/ju-examples): JeongUk's code examples archive for blog post
 - [ju-learning](https://github.com/ju-learning): JeongUk's learning record
 - [JENXOR](https://github.com/jenxor): Virtual Organization for JeongUk's project
-
+- [haneunjung](https://github.com/haneunjung): 사이드 프로젝트 팀 "한은정"
 
 ### Repository list
 
