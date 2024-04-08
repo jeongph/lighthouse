@@ -1,3 +1,4 @@
+# 개발 관련 정보 
 
 ## List-up
-- [public config](https://github.com/jeongph/public-config-resources.git)
+- [public-resources](https://github.com/jeongph/public-resources)
