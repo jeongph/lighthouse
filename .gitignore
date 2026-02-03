@@ -1,0 +1,7 @@
+# 모든 파일/폴더 기본 무시
+*
+
+# Git 관리 대상만 선택적 허용
+!.gitignore
+!CLAUDE.md
+!README.md
