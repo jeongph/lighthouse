@@ -1,4 +1,4 @@
-# Lighthouse (home)
+# lighthouse
 
 ## 개요
 이 파일은 Claude Code (claude.ai/code)가 Jeongph 관련 작업할 때 참고하는 최상위 지침이다. 따라서, Claude 실행 위치가 현재 이곳 `./lighthouse` 가 아니라면, 사용자에게 위치를 재확인한다.
@@ -8,11 +8,11 @@
 - **유연하고 확장성 있는 설계를 우선한다.** 당장의 편의보다 변경에 강한 구조를 선택한다.
 
 ## 최상위 정책
-- 이 워크스페이스(lighthouse)의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `conventions/`)
+- 정책 문서 폴더/레포의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `conventions/`, `docs/`)
 - `.gitignore`에서 `*`로 전체 무시 후 관리 대상만 선택적 허용하는 구조이다
 - `.gitignore`는 사용자가 명시적으로 수정을 요청하지 않는 한 절대 변경하지 않는다
-- 하위 프로젝트 파일을 워크스페이스 git에 포함시키려는 시도(`.gitignore` 수정, `git add` 등)를 하지 않는다
-- **최상위 정책문서(`CLAUDE.md`)가 변경되면 즉시 커밋 & 푸시한다**
+- 하위 프로젝트 파일을 상위 git에 포함시키려는 시도(`.gitignore` 수정, `git add` 등)를 하지 않는다
+- **정책문서(`CLAUDE.md`)가 변경되면 즉시 커밋 & 푸시한다**
 - 하위 프로젝트 커밋/푸시 절차:
   1. 해당 프로젝트 디렉토리에서 `git remote -v`로 remote 확인
   2. 해당 저장소에서 개별적으로 커밋/푸시
@@ -24,18 +24,33 @@
 ## 주석 컨벤션
 - 형식: `TAG: yyyy-MM-dd 내용`
 - TODO: 해야 할 작업, 아직 구현하지 않은 기능
-- FIXME: 알려진 버그 또는 잘못된 동작
+- FIXME: 알려진 버그 또는 잘못된 동작, 반드시 수정 필요
 - XXX: 더 생각해봐야 할 부분, 비효율적이거나 의문이 드는 코드
 
 ## 커밋 가이드라인
 - 형식: `<type>(<scope>): <subject>` (scope는 선택사항)
 - 제목 50자 이내, 마침표 금지
-- 타입 종류: feat, fix, refactor, style, docs, test, chore
-- 상세 규칙은 [conventions/git-commit-convention.md](conventions/git-commit-convention.md) 참조
+- 타입: feat, fix, refactor, style, docs, test, chore
 
 ## 워크플로우
 - 브랜치 전략: Git Flow (main, develop, feature/<기능명>, hotfix/<이슈명>)
-- Merge 정책: 사용자가 직접 확인하겠다고 하지 않는 한 PR 생성 후 바로 Merge
+
+### feature 브랜치
+1. develop 브랜치에서 최신화 (`git pull origin develop`)
+2. `feature/<기능명>` 브랜치 생성
+3. 작업 및 검증 (lint, build, dev 확인)
+4. 커밋
+5. feature → develop PR 생성 및 Merge
+
+### hotfix 브랜치
+1. main 브랜치에서 `hotfix/<이슈명>` 브랜치 생성
+2. 긴급 수정 및 검증
+3. 커밋
+4. hotfix → main PR 생성 및 Merge
+5. hotfix → develop PR 생성 및 Merge (동기화)
+
+### Merge 정책
+- 사용자가 직접 확인하겠다고 하지 않는 한 PR 생성 후 바로 Merge
 
 ## 작업 관리
 
@@ -48,13 +63,33 @@
 
 ### docs/history/ (완료 아카이브)
 - **작업 완료 시 반드시 히스토리 파일을 작성하고 커밋한다**
-- 파일명, frontmatter, 본문 구조 등 상세 규칙은 [conventions/history-convention.md](conventions/history-convention.md) 참조
+- 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md`
+  - `NNN`: 해당 일자 내 3자리 순번 (001부터 시작)
+  - `author`: 작성자 구분 (claude, jeonguk 등)
+  - `작업명`: 작업 내용을 요약한 한글 kebab-case
+- 작업 단위로 기록 (기능 구현, 리팩토링, 버그 수정 등)
 
-## 레포지토리 목록
-- `jenxor-workspace/` — jenxor Org 프로젝트 모음 (하위에 독립 git repo)
-- `jenxor-workspace/infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
-- `jenxor-workspace/vinnector-api/` — Java Spring Boot 기반 Vinnector API 서버
-- `jenxor-workspace/vinnector-web/` — Next.js 14 기반 Vinnector 프론트엔드 웹 애플리케이션
-- `jenxor-workspace/j-time-tracker-monorepo/` — 웹 기반 개인 시간관리 PWA 앱 모노레포 (Next.js 14 + Spring Boot 3.5)
-- `projects/handy/` — 개발 관련 치트시트, 가이드, 팁 모음
-- `projects/helpful-feeds/` — 개발자를 위한 유용한 피드 모음
+#### 히스토리 템플릿
+
+```markdown
+---
+title: <작업 제목>
+description: <한 줄 요약>
+date: yyyy-MM-dd
+author: claude | jeonguk
+project: <프로젝트명>
+tags:
+  - feat | fix | refactor | style | docs | test | chore
+---
+
+# <작업 제목>
+
+## Why
+- 왜 이 작업을 시작했는가
+
+## How
+- 어떻게 해결했는가
+
+## What
+- 결과적으로 무엇이 변경되었는가
+```
