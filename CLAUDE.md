@@ -47,13 +47,8 @@
 - compact 후 복원: `docs/tasks.md` → 진행중 항목 확인 → 이어서 진행
 
 ### docs/history/ (완료 아카이브)
-- 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md` (NNN: 해당 일자 내 3자리 순번, 001부터 시작)
-- author: 작성자 구분 (claude, jeonguk 등)
 - **작업 완료 시 반드시 히스토리 파일을 작성하고 커밋한다**
-- 히스토리 파일에는 다음 내용을 명확하게 담는다:
-  - **Why** — 왜 이 작업을 시작했는가 (버그 상황, 요구사항, 필요성)
-  - **How** — 어떻게 해결했는가 (접근 방식, 중간 트러블슈팅, 사용자 선택 사항)
-  - **What** — 결과적으로 무엇이 변경되었는가 (최종 산출물, 변경 범위)
+- 파일명, frontmatter, 본문 구조 등 상세 규칙은 [conventions/history-convention.md](conventions/history-convention.md) 참조
 
 ## 레포지토리 목록
 - `projects/infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
