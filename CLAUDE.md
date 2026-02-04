@@ -31,6 +31,7 @@
 - 형식: `<type>(<scope>): <subject>` (scope는 선택사항)
 - 제목 50자 이내, 마침표 금지
 - 타입: feat, fix, refactor, style, docs, test, chore
+- 상세 규칙은 [conventions/git-commit-convention.md](conventions/git-commit-convention.md) 참조
 
 ## 워크플로우
 - 브랜치 전략: Git Flow (main, develop, feature/<기능명>, hotfix/<이슈명>)
@@ -64,34 +65,6 @@
 ### docs/history/ (완료 아카이브)
 - **작업 완료 시 반드시 히스토리 파일을 작성하고 커밋한다**
 - 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md`
-  - `NNN`: 해당 일자 내 3자리 순번 (001부터 시작)
-  - `author`: 작성자 구분 (claude, jeonguk 등)
-  - `작업명`: 작업 내용을 요약한 한글 kebab-case
+- 본문: Why (문제/요구사항) → How (접근 방식, 사용자 선택, 트러블슈팅) → What (최종 결과)
 - 작업 단위로 기록 (기능 구현, 리팩토링, 버그 수정 등)
-
-#### 히스토리 템플릿
-
-```markdown
----
-title: <작업 제목>
-description: <한 줄 요약>
-date: yyyy-MM-dd
-author: claude | jeonguk
-project: <프로젝트명>
-tags:
-  - feat | fix | refactor | style | docs | test | chore
----
-
-# <작업 제목>
-
-## Why
-- 어떤 문제가 있었는지, 어떤 요구사항이 있었는지
-
-## How
-- 어떤 접근 방식과 도구를 사용해서 해결했는지
-- 사용자가 내린 주요 선택/결정 사항
-- 중간에 발생한 에러나 트러블슈팅 과정
-
-## What
-- 최종적으로 어떻게 완료되었는지 (변경된 파일, 적용된 설정 등)
-```
+- 상세 규칙은 [conventions/history-convention.md](conventions/history-convention.md) 참조
