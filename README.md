@@ -33,3 +33,17 @@ Often, I feel comfortable when everything is organized.. As if obsession of syst
 
 > 따라서 이 문서는 깃허브, 프로젝트, 네이밍룰 등 정리해야 할 것들을 안내하는 `등대` 역할을 할 것이다.
 > 규칙은 계속 따르면 습관이 되고, 정리하는 습관은 매일같이 망망대해를 떠돌아다니는 시간을 줄이고, 자연스럽고 올바르게 되돌아왔다가 고민 없이 새것을 시작하는 항구가 되어줄 것이다.
+
+## 워크스페이스 구조
+
+```
+lighthouse/                  ← 워크스페이스 루트 (github.com/jeongph/lighthouse)
+├── CLAUDE.md                ← Claude Code 최상위 지침
+├── .gitignore
+├── README.md
+├── conventions/             ← 컨벤션 문서
+├── docs/history/            ← 작업 히스토리
+├── .claude/
+├── handy/                   ← 치트시트, 가이드, 팁 (github.com/jeongph/handy)
+└── helpful-feeds/           ← 유용한 피드 모음 (github.com/jeongph/helpful-feeds)
+```
