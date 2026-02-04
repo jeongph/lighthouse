@@ -2,7 +2,19 @@
 *
 
 # Git 관리 대상만 선택적 허용
-!.claude/
 !.gitignore
 !CLAUDE.md
 !README.md
+
+# Claude Code 설정
+!.claude/
+!.claude/**
+
+# 컨벤션 문서
+!conventions/
+!conventions/**
+
+# 작업 히스토리
+!docs/
+!docs/history/
+!docs/history/**
