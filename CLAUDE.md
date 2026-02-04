@@ -56,6 +56,6 @@
   - **What** — 결과적으로 무엇이 변경되었는가 (최종 산출물, 변경 범위)
 
 ## 레포지토리 목록
-- `infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
-- `handy/` — 개발 관련 치트시트, 가이드, 팁 모음
-- `helpful-feeds/` — 개발자를 위한 유용한 피드 모음
+- `projects/infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
+- `projects/handy/` — 개발 관련 치트시트, 가이드, 팁 모음
+- `projects/helpful-feeds/` — 개발자를 위한 유용한 피드 모음
