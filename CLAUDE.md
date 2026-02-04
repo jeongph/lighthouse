@@ -28,7 +28,7 @@
 - XXX: 더 생각해봐야 할 부분, 비효율적이거나 의문이 드는 코드
 
 ## 커밋 가이드라인
-- 형식: `<type>: <subject>`
+- 형식: `<type>(<scope>): <subject>` (scope는 선택사항)
 - 제목 50자 이내, 마침표 금지
 - 타입 종류: feat, fix, refactor, style, docs, test, chore
 - 상세 규칙은 [conventions/git-commit-convention.md](conventions/git-commit-convention.md) 참조
@@ -51,6 +51,10 @@
 - 파일명, frontmatter, 본문 구조 등 상세 규칙은 [conventions/history-convention.md](conventions/history-convention.md) 참조
 
 ## 레포지토리 목록
-- `projects/infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
+- `jenxor-workspace/` — jenxor Org 프로젝트 모음 (하위에 독립 git repo)
+- `jenxor-workspace/infra-gitops/` — K8s GitOps 저장소, ArgoCD 기반 app-of-apps 패턴으로 배포 매니페스트 관리 (수동 명령어 사용 지양)
+- `jenxor-workspace/vinnector-api/` — Java Spring Boot 기반 Vinnector API 서버
+- `jenxor-workspace/vinnector-web/` — Next.js 14 기반 Vinnector 프론트엔드 웹 애플리케이션
+- `jenxor-workspace/j-time-tracker-monorepo/` — 웹 기반 개인 시간관리 PWA 앱 모노레포 (Next.js 14 + Spring Boot 3.5)
 - `projects/handy/` — 개발 관련 치트시트, 가이드, 팁 모음
 - `projects/helpful-feeds/` — 개발자를 위한 유용한 피드 모음
