@@ -37,9 +37,11 @@ tags:
 
 ## 본문
 
-frontmatter 아래에 Why → How → What 순서로 작성한다.
+frontmatter 아래에 문서 제목(`# 제목`)을 먼저 쓰고, Why → How → What 순서로 작성한다.
 
 ```markdown
+# <작업 제목>
+
 ## Why
 
 왜 이 작업을 시작했는가 (버그 상황, 요구사항, 필요성)
@@ -65,6 +67,8 @@ project: lighthouse
 tags:
   - chore
 ---
+
+# 워크스페이스 마이그레이션
 
 ## Why
 
