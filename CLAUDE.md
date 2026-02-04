@@ -47,7 +47,7 @@
 - compact 후 복원: `docs/tasks.md` → 진행중 항목 확인 → 이어서 진행
 
 ### docs/history/ (완료 아카이브)
-- 파일명: `yyyy-MM-dd-<author>-<작업명>.md`
+- 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md` (NNN: 해당 일자 내 3자리 순번, 001부터 시작)
 - author: 작성자 구분 (claude, jeonguk 등)
 - **작업 완료 시 반드시 히스토리 파일을 작성하고 커밋한다**
 - 히스토리 파일에는 다음 내용을 명확하게 담는다:
