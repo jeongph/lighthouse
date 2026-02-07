@@ -21,20 +21,20 @@ tags:
 ## How
 
 1. **커밋 히스토리 병합**: `git subtree add --prefix=spring-module-jwt prac-jwt/main`으로 prac-jwt 4개 커밋을 tools-of-spring에 보존
-2. **멀티모듈 전환**: 루트를 aggregator로 변경, `spring-module-jwt`(라이브러리) + `spring-module-jwt-example`(예제 앱) 구조
+2. **멀티모듈 전환**: 루트가 예제 앱 역할을 겸하고, `spring-module-jwt`를 서브모듈로 배치
 3. **JWT 라이브러리 구현**: jjwt 0.12.6 기반, Spring Boot Auto-configuration 패턴 적용
 4. **Java 21 toolchain**: 시스템에 Java 17이 없어 Java 21로 toolchain 변경
 5. **Git Flow**: main → develop → feature/multi-module-jwt, PR 생성 후 머지
 
 ## What
 
-### 모듈 구조
+### 프로젝트 구조
 - `spring-module-jwt`: JWT 인증 라이브러리 (plain JAR)
   - JwtProperties, JwtTokenProvider, JwtAuthenticationFilter
   - JwtAuthenticationEntryPoint, JwtAccessDeniedHandler
   - JwtAutoConfiguration (Spring Boot 자동 설정)
   - 단위 테스트 3개 (Provider, Filter, AutoConfiguration)
-- `spring-module-jwt-example`: 예제 앱 (bootJar)
+- 루트 `src/example/`: 예제 앱 (루트 프로젝트가 Spring Boot 앱 겸임)
   - 회원가입/로그인 API, H2 DB
   - 통합 테스트 (전체 인증 흐름)
 
@@ -44,6 +44,7 @@ tags:
 3. `test(jwt): JWT 모듈 단위 테스트 작성`
 4. `feat(jwt-example): JWT 모듈 사용 예제 애플리케이션`
 5. `docs: README 모듈 구조 및 사용법 업데이트`
+6. `refactor: 예제 모듈을 루트 src/example 패키지로 통합`
 
 ### PR
 - https://github.com/jeongph/tools-of-spring/pull/1
