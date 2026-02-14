@@ -9,9 +9,6 @@
 ## 프로젝트 구조
 - 모든 프로젝트(개별 레포지토리)는 `projects/` 하위에서 각각 관리한다
 - 각 프로젝트는 독립된 git 레포지토리로, `projects/<프로젝트명>/` 경로에 위치한다
-- 현재 프로젝트 목록:
-  - `projects/handy`
-  - `projects/helpful-feeds`
 
 ## 최상위 정책
 - 정책 문서 폴더/레포의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `conventions/`, `docs/`)
