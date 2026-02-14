@@ -44,7 +44,6 @@ lighthouse/                  ← 워크스페이스 루트 (github.com/jeongph/l
 ├── .claude/
 ├── conventions/             ← 컨벤션 문서
 ├── docs/history/            ← 작업 히스토리
-└── projects/                ← 프로젝트 모음 (각각 독립 git)
-    ├── handy/               ← 치트시트, 가이드, 팁 (github.com/jeongph/handy)
-    └── helpful-feeds/       ← 유용한 피드 모음 (github.com/jeongph/helpful-feeds)
+└── repositories/            ← 레포지토리 모음 (각각 독립 git)
+    └── ...
 ```
