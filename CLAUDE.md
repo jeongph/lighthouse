@@ -6,6 +6,13 @@
 ## 설계 원칙
 - **유연하고 확장성 있는 설계를 우선한다.** 당장의 편의보다 변경에 강한 구조를 선택한다.
 
+## 프로젝트 구조
+- 모든 프로젝트(개별 레포지토리)는 `projects/` 하위에서 각각 관리한다
+- 각 프로젝트는 독립된 git 레포지토리로, `projects/<프로젝트명>/` 경로에 위치한다
+- 현재 프로젝트 목록:
+  - `projects/handy`
+  - `projects/helpful-feeds`
+
 ## 최상위 정책
 - 정책 문서 폴더/레포의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `conventions/`, `docs/`)
 - `.gitignore`에서 `*`로 전체 무시 후 관리 대상만 선택적 허용하는 구조이다
