@@ -18,7 +18,6 @@
 !conventions/
 !conventions/**
 
-# 작업 히스토리
+# 문서
 !docs/
-!docs/history/
-!docs/history/**
+!docs/**

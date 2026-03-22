@@ -31,10 +31,7 @@
 - XXX: 더 생각해봐야 할 부분, 비효율적이거나 의문이 드는 코드
 
 ## 커밋 가이드라인
-- 형식: `<type>(<scope>): <subject>` (scope는 선택사항)
-- 제목 50자 이내, 마침표 금지
-- 타입: feat, fix, refactor, style, docs, test, chore
-- 상세 규칙: @conventions/git-commit-convention.md
+@conventions/git-commit-convention.md
 
 ## 워크플로우
 - 브랜치 전략: Git Flow (main, develop, feature/<기능명>, hotfix/<이슈명>)
