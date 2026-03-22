@@ -62,9 +62,7 @@
 - 작업이 완료되면 해당 항목을 tasks.md에서 제거한다 (완료 이력은 history가 담당)
 - compact 후 복원: `docs/tasks.md` → 진행중 항목 확인 → 이어서 진행
 
-### docs/history/ (완료 아카이브)
-- **작업 완료 시 반드시 히스토리 파일을 작성하고 커밋한다**
-- 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md`
-- 본문: Why (문제/요구사항) → How (접근 방식, 사용자 선택, 트러블슈팅) → What (최종 결과)
-- 작업 단위로 기록 (기능 구현, 리팩토링, 버그 수정 등)
-- 상세 규칙: @conventions/history-convention.md
+### 작업 히스토리 (Notion)
+- **작업 완료 시 Notion "Claude history" 데이터베이스에 기록한다**
+- 본문 구조: Why (문제/요구사항) → How (접근 방식, 사용자 선택, 트러블슈팅) → What (최종 결과)
+- 기록 방법은 `~/CLAUDE.md`의 "Notion 작업 히스토리 기록" 섹션을 따른다
