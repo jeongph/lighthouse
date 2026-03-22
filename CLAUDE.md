@@ -34,7 +34,7 @@
 - 형식: `<type>(<scope>): <subject>` (scope는 선택사항)
 - 제목 50자 이내, 마침표 금지
 - 타입: feat, fix, refactor, style, docs, test, chore
-- 상세 규칙은 [conventions/git-commit-convention.md](conventions/git-commit-convention.md) 참조
+- 상세 규칙: @conventions/git-commit-convention.md
 
 ## 워크플로우
 - 브랜치 전략: Git Flow (main, develop, feature/<기능명>, hotfix/<이슈명>)
@@ -70,4 +70,4 @@
 - 파일명: `yyyy-MM-dd-<NNN>-<author>-<작업명>.md`
 - 본문: Why (문제/요구사항) → How (접근 방식, 사용자 선택, 트러블슈팅) → What (최종 결과)
 - 작업 단위로 기록 (기능 구현, 리팩토링, 버그 수정 등)
-- 상세 규칙은 [conventions/history-convention.md](conventions/history-convention.md) 참조
+- 상세 규칙: @conventions/history-convention.md
