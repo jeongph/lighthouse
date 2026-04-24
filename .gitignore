@@ -21,3 +21,8 @@
 # 문서
 !docs/
 !docs/**
+
+# repositories 폴더 구조 유지
+!repositories/
+repositories/*
+!repositories/.gitkeep
