@@ -84,7 +84,7 @@
     - `Closes #<이슈번호>` — 해결된 이슈 연결 (GitHub auto-close)
     - `Refs: #<이슈번호>` / `See <이슈키>` — 관련 이슈·외부 트래커 참조
     - `Reviewed-by: <이름>` — 리뷰어 표기
-  - 푸터에 작성할 수 있는 GitHub auto-close 키워드는 [레퍼런스](#레퍼런스)의 GitHub 문서를 참조
+  - 푸터에 작성할 수 있는 GitHub auto-close 키워드는 [References](#references)의 GitHub 문서를 참조
 
 ## 예시
 
@@ -155,7 +155,7 @@ Refs: 676104e
 - `BREAKING CHANGE` 는 반드시 대문자로 작성한다
 - `<type>`·`(<scope>)` 는 대소문자를 구분하지 않지만, 우리는 소문자로 통일한다
 
-## 레퍼런스
+## References
 
 - [Conventional Commits 1.0.0 (한글)](https://www.conventionalcommits.org/ko/v1.0.0/)
 - [Conventional Commits 1.0.0 (영문)](https://www.conventionalcommits.org/en/v1.0.0/)
