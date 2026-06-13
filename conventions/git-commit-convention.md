@@ -1,4 +1,4 @@
-# Git commit convention
+# 커밋 컨벤션
 
 ## TL;DR
 

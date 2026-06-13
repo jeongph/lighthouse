@@ -1,4 +1,4 @@
-# module naming convention
+# 모듈 네이밍 컨벤션
 
 - {모듈범위}-{모듈타입}-{모듈명}
 

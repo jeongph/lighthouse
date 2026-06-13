@@ -1,4 +1,4 @@
-# Github repository naming rules
+# Github 레포지토리 네이밍 컨벤션
 
 - `<project-name>` : 기본적으론 소문자 형태의 [kebab-case](https://en.wiktionary.org/wiki/kebab_case)로 프로젝트명으로 제작
 - `prac-<project-name>` : practice project (연습용 프로젝트, 특정 기능만을 위한 프로젝트)
