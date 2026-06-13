@@ -10,8 +10,9 @@ lighthouse/                  ← 워크스페이스 루트 (github.com/jeongph/l
 ├── .gitignore
 ├── README.md
 ├── .claude/
-├── conventions/             ← 컨벤션 문서
-├── docs/                    ← 기타 문서 (커밋 예시·참고 등)
+├── docs/
+│   ├── conventions/         ← 컨벤션 문서
+│   └── ...                  ← 기타 문서 (커밋 예시·참고 등)
 └── repositories/            ← 레포지토리 모음 (각각 독립 git)
     └── ...
 ```

@@ -11,7 +11,7 @@
 - 각 프로젝트는 독립된 git 레포지토리로, `repositories/<프로젝트명>/` 경로에 위치한다
 
 ## 최상위 정책
-- 정책 문서 폴더/레포의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `conventions/`, `docs/`, `repositories/.gitkeep`)
+- 정책 문서 폴더/레포의 git은 메타 파일과 컨벤션 문서만 관리한다 (`.gitignore`, `CLAUDE.md`, `README.md`, `.claude/`, `docs/`, `repositories/.gitkeep`)
 - `.gitignore`에서 `*`로 전체 무시 후 관리 대상만 선택적 허용하는 구조이다
 - `.gitignore`는 사용자가 명시적으로 수정을 요청하지 않는 한 절대 변경하지 않는다
 - 하위 프로젝트 파일을 상위 git에 포함시키려는 시도(`.gitignore` 수정, `git add` 등)를 하지 않는다
@@ -25,13 +25,13 @@
 - 코드(변수명, 함수명 등)는 영어
 
 ## 주석 컨벤션
-@conventions/comment-convention.md
+@docs/conventions/comment-convention.md
 
 ## 커밋 컨벤션
-@conventions/git-commit-convention.md
+@docs/conventions/git-commit-convention.md
 
 ## Git 워크플로우
-@conventions/git-workflow-convention.md
+@docs/conventions/git-workflow-convention.md
 
 ## 작업 관리
 
@@ -43,4 +43,4 @@
 - compact 후 복원: `docs/tasks.md` → 진행중 항목 확인 → 이어서 진행
 
 ### 작업 히스토리 (Notion)
-@conventions/notion-history-convention.md
+@docs/conventions/notion-history-convention.md

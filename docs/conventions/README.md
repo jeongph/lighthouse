@@ -4,7 +4,7 @@
 
 ## 목록
 
-- [커밋 컨벤션](./git-commit-convention.md) — [예시·참고 자료](../docs/git-commit-convention-refs.md)
+- [커밋 컨벤션](./git-commit-convention.md) — [예시·참고 자료](../git-commit-convention-refs.md)
 - [주석 컨벤션](./comment-convention.md)
 - [Git 워크플로우 컨벤션](./git-workflow-convention.md)
 - [Notion 작업 히스토리 컨벤션](./notion-history-convention.md)

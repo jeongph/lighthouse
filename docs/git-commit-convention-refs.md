@@ -1,6 +1,6 @@
 # 커밋 컨벤션 - 예시 및 참고 자료
 
-> 규칙 원본: [conventions/git-commit-convention.md](../conventions/git-commit-convention.md)
+> 규칙 원본: [docs/conventions/git-commit-convention.md](./conventions/git-commit-convention.md)
 
 ## 예시
 
