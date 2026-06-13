@@ -86,6 +86,7 @@ docs: `Users` table Create SQL 추가
 - [\[Git\] 커밋 메시지 규약 정리 (the AngularJS commit conventions)](https://velog.io/@outstandingboy/Git-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B7%9C%EC%95%BD-%EC%A0%95%EB%A6%AC-the-AngularJS-commit-conventions)
 - [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속](https://meetup.nhncloud.com/posts/106)
 - [Conventional Commits](https://www.conventionalcommits.org/ko/v1.0.0/)
+- [Conventional Commits 표준 GitHub 저장소](https://github.com/conventional-commits/conventionalcommits.org)
 - [git: AngularJS Git Commit Message Conventions](http://dogfeet.github.io/articles/2013/angularjs-git-commit-message-conventions.html)
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 - [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
